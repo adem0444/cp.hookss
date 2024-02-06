@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body{
+  text-align: center;
+  padding: 15px;
+  background-image: url("https://img.freepik.com/free-photo/film-reel-box-near-popcorn-line_23-2147698912.jpg?size=626&ext=jpg&ga=GA1.1.1826414947.1700179200&semt=ais");
+  background-size: cover;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 50px;
+  padding-left: 0px;
+  gap: 30;
+  font-family: serif;
+}
+.titlee{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: xx-large;
+  color:rgb(53, 3, 3);
+}
